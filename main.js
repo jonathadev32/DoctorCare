@@ -7,6 +7,10 @@ function onScroll() {
   showBackToTopButtonOnScroll()
 }
 
+function activateMenuAtCurrentSection() {
+  
+}
+
 function showNavOnScroll() {
   if (scrollY > 0) {
     navigation.classList.add('scroll')
